@@ -1,0 +1,22 @@
+.questioncard {
+    margin: 0 auto; 
+    float: none; 
+    margin-top: 25%;
+  
+  }
+.form-check-inline::before{
+    display: inline;
+    color: black;
+    background: #000;
+}
+
+  
+
+.custom-radio-blue[type="radio"]:checked.form-check-label::before {
+    background-color: blue 
+  
+}
+  .custom-radio-blue[type="radio"] .form-check-label::before {
+    border-color: blue;
+  }
+  

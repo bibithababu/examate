@@ -1,0 +1,45 @@
+
+.progress-bar {
+    background-color: #0082E0;
+    margin-bottom: 1px;
+    height: 5px;
+    border-radius: 10px;  
+    
+ 
+    
+   }
+/* .progress-div{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+} */
+
+.progressBarTable {
+    width: 80%;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .progressBarTable td {
+    padding: 50px;
+    border: none; 
+  }
+  
+  .progressBarTable .progressBar {
+    width: 100%;
+  }
+  .thin-progress-bar {
+    height: 2px; 
+    border-radius: 5px; 
+  }
+  .text{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .my-custom-button {
+    border-radius: 2px; 
+  }
+ 
+  
+  

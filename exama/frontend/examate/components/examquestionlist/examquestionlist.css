@@ -1,0 +1,96 @@
+.question-container {
+  width: 80;
+  height: 500px;
+  overflow: auto;
+}
+
+
+.thead {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 5px;
+}
+th {
+  padding: 10px;
+  border-bottom: 2px solid #ddd;
+}
+.table {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 450px;
+  margin-left: 50px;
+  margin-right: 100px;
+
+}
+.loader {
+  background-color: #ededed;
+  height: 18px;
+  border-radius: 7px;
+  width: 100%;
+}
+
+.td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 6px;
+  gap: 8px;
+  height: 44px;
+  width: 140px;
+  border: none;
+  background: #0d9276;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-bottom: 2%;
+}
+
+.lable {
+  line-height: 20px;
+  font-size: 17px;
+  color: #fff;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.button:hover {
+  background: #0d9276;
+}
+
+.button:hover .svg-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.question-text {
+  text-decoration: none !important;
+}
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 3px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+span:hover .tooltip {
+  opacity: 1; /* Show the tooltip on hover */
+}

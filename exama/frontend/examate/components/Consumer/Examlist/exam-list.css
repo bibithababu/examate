@@ -1,0 +1,150 @@
+
+
+.button-position{
+    margin-top: 4%;
+    margin-left: 93%;
+ 
+    
+}
+.button-width{
+  width: 160px;
+}
+.search-box {
+    position: relative;
+    max-width:120px; 
+   
+  }
+
+  .search-box input[type="text"] {
+    padding-left: 2.5rem; 
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6c757d;
+  }
+
+  .main-heading{
+   
+    margin-top: 50px;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Outfit', sans-serif;
+  }
+  .edit-icon {
+    color: rgb(23, 83, 163); /* Adjust the color as needed */
+    cursor: pointer;
+    margin-right: 10px; /* Adjust spacing between the edit and trash icons */
+  }
+ 
+  .table th,
+  .table td {
+    overflow: hidden; /* Hide content that overflows the cell */
+    text-overflow: ellipsis; /* Display an ellipsis (...) when content overflows */
+    white-space: nowrap; /* Prevent wrapping of content within cells */
+  }
+
+  table {
+      border-collapse: separate;
+      border-spacing:10px 20px; 
+      margin-top: 2%;
+      font-size: 14px;  
+      table-layout: fixed;
+      margin-right: 200px;
+    }
+
+    .table-container {
+      margin-left: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+.Toastify__toast-body {
+      font-size: 15px;
+      padding: 20px; 
+      min-height: 50px;   
+    }
+  .customModalHeader {
+      background-color:#3883ce;
+      color: white;
+    }
+    .pagination-container{
+      display: grid;
+      place-items:center;
+      margin-right: 20%;
+    }
+    .full-width-container {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      
+    }
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+  margin-top: 90px;
+  margin-right: 200px;
+}
+
+
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  border-radius: 50%;
+  background:
+    linear-gradient(0deg ,rgb(0 0 0/50%) 30%,#0000 0 70%,rgb(0 0 0/100%) 0) 50%/8% 100%,
+    linear-gradient(90deg,rgb(0 0 0/25%) 30%,#0000 0 70%,rgb(0 0 0/75% ) 0) 50%/100% 8%;
+  background-repeat: no-repeat;
+  animation: l23 1s infinite steps(12);
+}
+.loader::before,
+.loader::after {
+   content: "";
+   grid-area: 1/1;
+   border-radius: 50%;
+   background: inherit;
+   opacity: 0.915;
+   transform: rotate(30deg);
+}
+.loader::after {
+   opacity: 0.83;
+   transform: rotate(60deg);
+}
+.filter-icon {
+  width: 20px; /* Adjust the size of the circle according to your preference */
+  height: 20px;
+  border: 1px solid #000; /* Adjust border thickness and color as needed */
+  border-radius: 50%; /* Set border-radius to 50% to create a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.trash-icon {
+  color: red; /* Adjust the color as needed */
+  cursor: pointer;
+}
+
+@keyframes l23 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.button-container {
+  display: flex;
+}
+
+.button-container > Button {
+  flex-grow: 1;
+}
+
+

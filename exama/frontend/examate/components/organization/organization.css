@@ -1,0 +1,38 @@
+
+.progress-bar {
+    background-color: #0082E0;
+    margin-bottom: 1px;
+    height: 5px;
+    border-radius: 3px;      
+   }
+   
+
+
+.progressBarTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .progressBarTable td {
+    padding: 50px;
+    border: none; 
+  }
+  
+  .progressBarTable .progressBar {
+    width: 100%;
+  }
+  .thin-progress-bar {
+    height: 5px; 
+    border-radius: 3px; 
+  }
+  .text{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+  }
+  .my-custom-button {
+    border-radius: 5px; 
+  }
+  
+  
+  

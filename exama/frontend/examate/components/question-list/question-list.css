@@ -1,0 +1,159 @@
+.custom-container {
+  margin-top: 10%;
+  margin-left: 5px;
+}
+.button-position{
+  margin-top: 1%;
+
+  
+}
+.search-box {
+ /* margin-top: 1%; */
+  position: relative;
+  max-width: 80%; 
+}
+.search-box input[type="text"] {
+  padding-left: 2.5rem; /* Adjust this value as needed */
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 8px; /* Adjust this value as needed */
+  transform: translateY(-50%);
+  color: #6c757d; /* Adjust icon color as needed */
+}
+.main-heading{
+  margin-top: 5%;
+  color:black;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'Outfit', sans-serif;
+}
+.clickable-question {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ddd; /* Outline color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.clickable-question:hover {
+  background-color: #f0f0f0; /* Background color on hover */
+}
+.pagination-container{
+  display: grid;
+  place-items:center;
+  margin-right: 20%;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+ /* Adjust the margin as needed */
+}
+
+
+.delete-button {
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.Toastify__toast-body {
+  font-size: 16px;
+  padding: 20px; 
+  min-height: 50px; 
+ 
+}
+.custom-modal {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 0; /* Adjust the values based on your preference */
+}
+
+
+/* .table th, .table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+} */
+
+
+
+.loader {
+background-color: #ededed;
+height: 18px;
+border-radius: 7px;
+width: 100%;
+}
+
+td .loader {
+  background-color: #ededed;
+  background-image: linear-gradient(100deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, .5) 50%,
+      rgba(255, 255, 255, 0) 60%);
+  background-size: 200% 100%;
+  background-position-x: 180%;
+  animation: 1s loading ease-in-out infinite;
+}
+@keyframes loading {
+to {
+    background-position-x: -30%;
+}
+}
+
+.table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+
+/* CSS */
+.button-60 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: .375em;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #363636;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1rem;
+  /* height: 2.5em; */
+  justify-content: center;
+  line-height: 1.5;
+  padding: calc(.5em - 1px) 1em;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-60:active {
+  border-color: #4a4a4a;
+  outline: 0;
+}
+
+.button-60:focus {
+  border-color: #485fc7;
+  outline: 0;
+}
+
+.button-60:hover {
+  border-color: #b5b5b5;
+}
+
+.button-60:focus:not(:active) {
+  box-shadow: rgba(72, 95, 199, .25) 0 0 0 .125em;
+}
+
+

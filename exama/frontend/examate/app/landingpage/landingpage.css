@@ -1,0 +1,9 @@
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ /* To distribute items evenly along the main axis */
+  background-color: #00a9ff;
+ 
+}

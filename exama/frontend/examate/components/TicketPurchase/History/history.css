@@ -1,0 +1,134 @@
+.buy-ticket-button{
+    background-color:#106fb8;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 200px;
+    height: 39px;
+    border: none;
+    margin-top:2% ;
+   margin-left: 70%;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 10%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    text-align: center;
+    font-weight: bolder;
+  }
+  
+  
+  .custom-header {
+    background-color: #106fb8;
+    color: white;
+   
+  }
+ 
+  
+  button {
+    background-color:#a8b7c2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #2a7230;
+  }
+  
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .counter button:hover {
+    background-color: #ddd;
+  }
+  table {
+    border-collapse: separate;
+    border-spacing:10px 20px; 
+    margin-top: 5%;
+    font-size: 14px;  
+    table-layout: fixed;
+
+  }
+  .main-heading{
+   
+    margin-top: 8%;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Outfit', sans-serif;
+  }
+
+  .table-container {
+    margin-left: 2px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .loader-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px;
+    }
+    
+    .loader {
+      width: 50px;
+      aspect-ratio: 1;
+      display: grid;
+      border-radius: 50%;
+      background: linear-gradient(
+            0deg,
+            rgb(0 0 0/50%) 30%,
+            #0000 0 70%,
+            rgb(0 0 0/100%) 0
+          )
+          50%/8% 100%,
+        linear-gradient(90deg, rgb(0 0 0/25%) 30%, #0000 0 70%, rgb(0 0 0/75%) 0)
+          50%/100% 8%;
+      background-repeat: no-repeat;
+      animation: l23 1s infinite steps(12);
+    }
+    .loader::before,
+    .loader::after {
+      content: "";
+      grid-area: 1/1;
+      border-radius: 50%;
+      background: inherit;
+      opacity: 0.915;
+      transform: rotate(30deg);
+    }
+    .loader::after {
+      opacity: 0.83;
+      transform: rotate(60deg);
+    }
+    @keyframes l23 {
+      100% {
+        transform: rotate(1turn);
+      }
+    }
+    .view-more{
+    background-color:#106fb8;
+    }

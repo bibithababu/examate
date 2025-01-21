@@ -1,0 +1,17 @@
+.start-exam {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh; /* Ensures the content takes the full height of the viewport */
+  }
+
+.start-exam-button{
+    background-color: #087990;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    width: 342px;
+    height: 39px;
+    border: none;
+}

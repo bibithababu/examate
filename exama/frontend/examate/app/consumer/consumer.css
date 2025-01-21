@@ -1,0 +1,131 @@
+/* body {
+  direction: ltr;
+  text-align: left;
+  color: #fff;
+  overflow-y: hidden;
+} */
+
+/* 
+ 
+  .navbarList {
+    list-style: none;
+    display: flex;
+    justify-content: right; 
+    align-items: right;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media (max-width: 543px) {
+    .navbar-toggleable .navbar-nav .nav-item {
+      margin-right: 0;
+    }
+  }
+  
+  #wrapper {
+    padding-right: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #wrapper.toggled {
+    padding-left: 8%;
+  }
+  
+  #sidebar-wrapper {
+    z-index: 1000;
+    position: absolute;
+    left: 250px;
+    width: 0;
+    height: 100vh;
+    margin-left: -250px;
+    overflow: hidden;
+    background: #3883ce;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border-top-right-radius: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    #sidebar-wrapper {
+      height: 100%;
+    }
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  
+  #page-content-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    padding: 2% 5% 1% 8%;
+    overflow-y: auto;
+  }
+
+  
+  #wrapper.toggled #page-content-wrapper {
+    width: 100%;
+    left: 10%;
+    right: 10%;
+    padding: 2% 5% 1% 8%;
+  }
+  
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 65px;
+    font-family: serif;
+  }
+  
+  .sidebar i {
+    margin-right: 20px;
+  }
+  .text {
+    color: #fff;
+    text-align: center;
+    padding-left: 80px;
+    font-family: "Times New Roman", Times, serif;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    width: 100%;
+    position: absolute;
+  }
+  .sidebar-brand :hover {
+    background-color: rgb(17, 113, 209);
+  } */
+  
+  /* @media screen and (max-width: 768px) {
+    .navbar {
+      width: 600px;
+    }
+  } */
+
+  

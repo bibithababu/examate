@@ -1,0 +1,33 @@
+.search-box {
+    position: relative;
+    max-width:120px; 
+   
+  }
+
+  .search-box input[type="text"] {
+    padding-left: 2.5rem; 
+  }
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6c757d;
+  }
+  /* table {
+    border-collapse: separate;
+    border-spacing:10px 20px; 
+    margin-top: 5%;
+    font-size: 14px;  
+    table-layout: fixed;
+    margin-right: 20%;
+    max-width: 75%;
+  } */
+  .main-heading{
+   
+    margin-top: 50px;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Outfit', sans-serif;
+  }

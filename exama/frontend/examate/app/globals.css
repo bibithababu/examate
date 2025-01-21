@@ -1,0 +1,176 @@
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    direction: ltr;
+    text-align: left;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .nav {
+    padding-right: 0;
+    height: 10px;
+    position: fixed; /* Fixed position */
+    top: 0; 
+    z-index: 1000; 
+  }
+  
+  .navbarList {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media (max-width: 543px) {
+    .navbar-toggleable .navbar-nav .nav-item {
+      margin-right: 0;
+    }
+  }
+  
+  
+  #wrapper {
+    padding-top: 5%;
+    padding-top: 40px;
+    padding-right: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  
+  #wrapper.toggled {
+    padding-left: 250px;
+    padding-top: 40px;
+  }
+  
+  #sidebar-wrapper {
+    z-index: 1000;
+    position: relative;
+    left: 250px;
+    width: 0;
+    height: 100vh;
+    margin-left: -250px;
+    overflow: hidden;
+    background: #3883ce;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+  @media screen and (max-width: 768px) {
+   
+    #sidebar-wrapper {
+      height: 1165px; 
+    }
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+  }
+  
+  #page-content-wrapper {
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+   
+  }
+  
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  
+  
+  .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+   
+  }
+  
+  .sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 65px;
+    font-family: serif;
+  }
+  
+  
+  .sidebar i {
+    margin-right: 20px; 
+  }
+  .text{
+    color: #fff;
+    text-align: center;
+    padding-left: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  
+  }
+   
+  .navbar {
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    z-index: 1000; 
+  }
+  .sidebar-brand :hover {
+    background-color:rgb(17, 113, 209); 
+    
+    }
+    
+/* /*   
+  @media screen and (max-width: 768px) {
+    
+    .navbar {
+      width: 100%;
+      
+    }
+  } */
+   
+
+  .hidden {
+    display: none;
+  }
+  
+  #firebase-notification-toast {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 9999; 
+  }
+  
+  #firebase-notification-toast h3 {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+
+

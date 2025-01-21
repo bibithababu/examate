@@ -1,0 +1,41 @@
+.progress-bar {
+  background-color: #0082e0;
+  margin-bottom: 1px;
+  height: 5px;
+  border-radius: 3px;
+}
+/* .progress-div {
+  margin-top: 1%;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+} */
+
+.progressBarTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.progressBarTable td {
+  padding: 50px;
+  border: none;
+}
+
+.progressBarTable .progressBar {
+  width: 100%;
+}
+.thin-progress-bar {
+  height: 5px;
+  border-radius: 3px;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+}
+.my-custom-button {
+  border-radius: 5px;
+}
+h5{
+  font-family: "Times New Roman", Times, serif;
+  color:#05004E
+}

@@ -1,0 +1,29 @@
+.yellow-star {
+    color: rgb(211, 211, 37);
+    
+  }
+
+.half-filled-star {
+  color: rgb(211, 211, 37);
+  mask-image: linear-gradient(to right, currentColor 50%, transparent 50%); /* Apply the half-fill effect */
+  border-color: rgb(211, 211, 37);
+  }
+
+  table {
+    border-collapse: separate;
+    border-spacing:10px 20px; 
+    margin-top: 5%;
+    font-size: 14px;  
+    table-layout: fixed;
+    margin-right: 20%;
+    width: 10%;
+  }
+  .main-heading{
+   
+    margin-top: 50px;
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Outfit', sans-serif;
+  }
+  

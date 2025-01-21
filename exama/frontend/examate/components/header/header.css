@@ -1,0 +1,13 @@
+.navbar {
+  background-color: rgb(38, 69, 160);
+
+  color: #fff;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+}
+
+main {
+  font-family: "Times New Roman", Times, serif;
+}
