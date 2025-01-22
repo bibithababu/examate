@@ -1,0 +1,35 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git Clone') {
+            steps {
+                script {
+                    echo 'Cloning Git repository...'
+                    git branch: 'main', url: 'https://github.com/bibithababu/examate.git'
+                }
+            }
+        }
+
+        stage('Build') {
+            steps {
+                dir('/var/lib/jenkins/workspace/exammate/exammatetest/') {
+                    script {
+                        echo 'Building Docker image...'
+                        sh 'docker build -t examate_image .'
+                    }
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                 dir('/var/lib/jenkins/workspace/exammate/exammatetest/') {
+                    script {
+                        echo 'Building Docker image...'
+                        sh 'docker run -d -p 8089:8089 examate_image'
+                    }
+                }
+            }
+        }
+    }
+}
